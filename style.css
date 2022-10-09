@@ -1,0 +1,69 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background-color: #ffeea9;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+
+
+}
+
+.container h1 {
+    font-size: 5rem;
+    font-family: 'Roboto', sans-serif;
+    color: purple;
+    font-weight: bolder;
+    padding: 20px 30px;
+}
+
+.container h2 {
+    font-size: 3rem;
+    color: #E74C3C;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container p {
+    font-size: 1.2rem;
+    color: #3498DB;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+
+}
+
+.gameContainer {
+    display: flex;
+    position: relative;
+    margin-top: 80px;
+    align-content: center;
+    flex-direction: row;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.gameContainer img {
+    width: 200px;
+    height: 200px;
+}
+
+#btn {
+    padding: 10px 15px;
+    background-color: #3498DB;
+    color: crimson;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+}
