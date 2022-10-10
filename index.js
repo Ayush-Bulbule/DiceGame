@@ -75,3 +75,17 @@ function getdice() {
 
 }
 
+let dicee = document.querySelectorAll("img");
+function roll(){
+    dicee.forEach(function(die){
+        die.classList.add("shake");
+    });
+    setTimeout(function(){
+        dicee.forEach(function(die){
+            die.classList.remove("shake");
+        });
+    },
+    1000
+    );
+}
+
