@@ -10,25 +10,40 @@
 </head>
 
 <body>
-
     <div class="container">
-        <h1>Dice Game!!</h1>
-        <h2 id="result">Player 1 Won!!</h2>
-        <div class="gameContainer">
-            <div class="player">
-                <p class="playerName">Player 1</p>
-                <img src="dice6.png" alt="" class="imgdice" id="imgpl1">
-            </div>
-            <div class="player">
-                <p class="playerName">Player 1</p>
-                <img src="dice6.png" alt="" class="imgdice" id="imgpl2">
-            </div>
-        </div>
-
-        <button id="btn">Click me!</button>
-
+        <h1>DICE GAME</h1>
     </div>
 
+    <div class="container">
+        <center>
+            <h1> DICE ROLL GAME </h1>
+        </center>
+        <div class="dice-wrapper">
+
+            <table>
+                <tr>
+                    <td>
+                        <center>
+                            <p class="playerName"><u>Player 1</u> </p>
+                        </center>
+                    </td>
+                    <td>
+                        <center>
+                            <p class="playerName"><u>Player 2</u> </p>
+                        </center>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="dice6.png" alt="" class="imgdice" id="imgpl1" height="160"></td>
+                    <td><img src="dice6.png" alt="" class="imgdice" id="imgpl2" height="160"></td>
+                </tr>
+
+            </table>
+        </div>
+        <p id="result">Lets Try Your Luck :)</p>
+        <button id="btn" onclick="roll()"><b>Roll The Dice !</b></button>
+
+    </div>
 </body>
 <script src="index.js"></script>
 
